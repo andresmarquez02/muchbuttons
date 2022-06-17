@@ -1,0 +1,31 @@
+$yellow: rgb(255, 243, 78);
+$blue: rgb(13, 110, 253);
+$red: rgb(235, 55, 73);
+$green: rgb(25, 205, 122);
+$purple: rgb(175, 83, 228);
+$orange: rgb(252, 190, 7);
+$indigo: rgb(96, 44, 218);
+$pink: rgb(233, 50, 150);
+$gray: rgb(174, 183, 197);
+$light: rgb(225, 225, 231);
+$dark: rgb(14, 14, 58);
+$black: rgb(16, 16, 19);
+$colors: (
+    "yellow": $yellow,
+    "blue": $blue,
+    "red": $red,
+    "green": $green,
+    "purple": $purple,
+    "orange": $orange,
+    "indigo": $indigo,
+    "pink": $pink,
+    "gray": $gray,
+    "light": $light,
+    "dark": $dark,
+    "black": $black
+);
+$opacity: 0.5;
+$roundedPill: 50rem;
+$notRounded: 0;
+$color-contrast-light: white;
+

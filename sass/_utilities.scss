@@ -1,0 +1,31 @@
+.not-rounded{
+    border-radius: 0 !important;
+}
+
+.pill{
+    border-radius: $roundedPill;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-semi-block {
+    width: 50%;
+}
+
+.text-dark{
+    color: $dark !important;
+}
+
+.text-gray{
+    color: $gray !important;
+}
+
+.text-white{
+    color: white !important;
+}

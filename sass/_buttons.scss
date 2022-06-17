@@ -1,0 +1,54 @@
+button {
+    padding: 0.375rem 0.75rem;
+    outline: none;
+    border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+    border: none;
+    cursor: pointer;
+    font-weight: normal;
+    line-height: 1.5;
+    text-decoration: none;
+    white-space: null;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+@each $color, $value in $colors {
+    .btn-#{$color} {
+        @include button-solid($value, $value);
+    }
+}
+.btn-yellow, .btn-light{
+    color: $dark;
+}
+
+@each $color, $value in $colors {
+    .btn-text-#{$color} {
+        @include button-text($value, $value);
+    }
+}
+
+@each $color, $value in $colors {
+    .btn-outline-#{$color} {
+        @include button-outline($value, $value);
+    }
+}
+.btn-outline-yellow:hover, .btn-outline-light:hover,.btn-outline-light:focus,.btn-outline-yellow:focus,
+.btn-outline-yellow+.focus,.btn-outline-light+.focus, .btn-outline-light:active, .btn-outline-light+.active,.btn-outline-yellow:active, .btn-outline-yellow+.active,
+.btn-outline-yellow:active:focus, .btn-outline-light:active:focus{
+    color: $dark;
+}
+
+@each $color, $value in $colors {
+    .btn-opacity-#{$color} {
+        @include button-opacity($value, $value);
+    }
+}
