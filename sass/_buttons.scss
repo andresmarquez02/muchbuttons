@@ -27,7 +27,7 @@ button {
     }
 }
 .btn-yellow, .btn-light{
-    color: $dark;
+    color: $colorYellow;
 }
 
 @each $color, $value in $colors {
@@ -44,7 +44,7 @@ button {
 .btn-outline-yellow:hover, .btn-outline-light:hover,.btn-outline-light:focus,.btn-outline-yellow:focus,
 .btn-outline-yellow+.focus,.btn-outline-light+.focus, .btn-outline-light:active, .btn-outline-light+.active,.btn-outline-yellow:active, .btn-outline-yellow+.active,
 .btn-outline-yellow:active:focus, .btn-outline-light:active:focus{
-    color: $dark;
+    color: $colorYellow;
 }
 
 @each $color, $value in $colors {
