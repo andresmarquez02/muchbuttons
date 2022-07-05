@@ -99,7 +99,7 @@ Tambien puedes ver los resultados
 
 https://andresmarquez02.github.io/muchbuttons/
 
-## Authors
+## Autor
 
 - [@andresmarquez](https://www.github.com/andresmarquez02)
 
